@@ -1,0 +1,39 @@
+{
+  "name": "koa-request-nano-id",
+  "version": "1.0.0",
+  "description": "Koa request-id middleware based on nano-id.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "commit": "git-cz"
+  },
+  "author": {
+    "name": "Kilian Stallinger",
+    "email": "kilian@krew.at"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "git-cz": "^4.7.6",
+    "standard-version": "^9.3.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "nanoid": "^3.1.23"
+  },
+  "keywords": [
+    "koa",
+    "koa-middleware",
+    "koa2-middleware",
+    "request-id",
+    "nanoid"
+  ],
+  "files": [
+    "lib/index.js"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
